@@ -4,7 +4,7 @@ import { MercadoPagoIcon } from "../icons/MercadoPagoIcon";
 
 
 interface IMercadoPagoButtonProps extends DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement> {
-
+    variant?: string
 }
 
 const colorStyles = 'bg-blue-400 text-white transition-all duration-500'

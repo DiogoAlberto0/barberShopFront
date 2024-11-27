@@ -8,6 +8,11 @@ import { ContractExpirationAccordion } from "./components/ContractExpirationAcco
 // barber shop infos
 import BarberShopLogoImage from '@/../public/Logo.jpg'
 import { BarberShopInfoInputCard } from "./components/BarberShopInfoCardInput/BarberShopInfoInputCard";
+import { PageProps } from "../../../../../.next/types/app/layout";
+
+interface BarberShopByIdPageProps extends PageProps {
+    params: Promise<{ barberShopId: string }>
+}
 
 const barberShopInfos = {
     imageUrl: BarberShopLogoImage,
@@ -24,8 +29,13 @@ const barberShopInfos = {
         zipcode: '71805709',
     }
 }
-export default function BarberShopByIdPage({ params: { barberShopId } }: { params: { barberShopId: string } }) {
+export default async function BarberShopByIdPage({
+    params
+}: BarberShopByIdPageProps) {
 
+    const { barberShopId } = await params
+
+    console.log(barberShopId)
     return (
         <div className="flex flex-col items-center relative w-full">
             <BackButton />

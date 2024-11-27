@@ -5,7 +5,7 @@ import { HolidayTable } from '../../../../../components/Holiday/HolidayTable';
 import { HolidayForm } from "@/components/Holiday/HolidayForm";
 
 interface IHolidaysAccordionProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
-
+    variant?: string
 }
 
 const holidays = [

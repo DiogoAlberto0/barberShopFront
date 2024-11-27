@@ -2,7 +2,9 @@ import { DetailedHTMLProps, HTMLAttributes } from "react"
 
 
 
-interface IStatsProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> { }
+interface IStatsProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
+    variant?: string
+}
 
 
 export const Stats = ({ children, className, ...otherProps }: IStatsProps) => {

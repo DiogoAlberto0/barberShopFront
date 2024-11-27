@@ -2,7 +2,6 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { MenuLg } from "@/components/Menu/MenuLg";
 import { BackButton } from "@/components/BackButton";
 import { AddIcon } from "@/components/icons/AddIcon";
-import Link from "next/link";
 import { MenuItem } from "@/components/Menu/MenuItem";
 
 const menuItems = [

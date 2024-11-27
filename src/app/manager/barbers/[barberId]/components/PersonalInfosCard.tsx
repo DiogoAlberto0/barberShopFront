@@ -8,7 +8,6 @@ import Image from "next/image"
 import { PhoneIcon } from "@/components/icons/PhoneIcon"
 import { IdentityIcon } from "@/components/icons/IdentityIcon"
 import { EditIcon } from "@/components/icons/EditIcon"
-import { Button } from "@/components/Buttons/Button"
 import { FileInput } from "@/components/inputs/FileInput"
 import { PhoneInput } from '@/components/inputs/PhoneInput';
 import { CpfInput } from '../../../../../components/inputs/CpfInput';

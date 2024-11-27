@@ -1,6 +1,5 @@
 import { DetailedHTMLProps, TableHTMLAttributes } from "react"
 
-import { IconTextButton } from "../Buttons/IconTextButton"
 import { TrashIcon } from "../icons/TrashIcon"
 import { IconButton } from "../Buttons/IconButton"
 

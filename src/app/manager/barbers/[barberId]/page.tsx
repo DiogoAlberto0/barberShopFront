@@ -1,3 +1,4 @@
+
 import { DayOffTable } from "./components/DayOffTable/Table"
 import { OperationTableInput } from "@/components/OperationTableInput/OperationInputTable"
 import { PersonalInfosCard } from "./components/PersonalInfosCard"
@@ -95,10 +96,13 @@ const barberOperation = {
 }
 
 
-export default function BarberByIdPage({
-    params: { barberId }
-}: { params: { barberId: string } }) {
+export default async function BarberByIdPage({
+    params
+}: { params: Promise<{ barberId: string }> }) {
 
+    const { barberId } = await params
+
+    console.log(barberId)
     return (
         <div className="flex flex-col items-center relative">
             <BackButton />

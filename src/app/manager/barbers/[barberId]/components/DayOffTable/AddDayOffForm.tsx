@@ -9,7 +9,10 @@ interface IAddDayOffForm extends DetailedHTMLProps<FormHTMLAttributes<HTMLFormEl
 }
 export const AddDayOffForm = ({ onSubmit, onCancel, className, ...ohterProps }: IAddDayOffForm) => {
     return (
-        <form className={`w-full flex flex-col gap-2 p-4 ${className}`.trim()}>
+        <form
+            className={`w-full flex flex-col gap-2 p-4 ${className}`.trim()}
+            {...ohterProps}
+        >
             <DateInput />
 
             <div className="w-full flex justify-between">

@@ -5,6 +5,7 @@ import { StatValue } from "@/components/Stat/StatValue"
 import { DetailedHTMLProps, HTMLAttributes } from "react"
 
 interface IPricePerMonthStatProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
+    variant?: string
 }
 export const PricePerMonthStat = ({ ...otherProps }: IPricePerMonthStatProps) => {
     return (

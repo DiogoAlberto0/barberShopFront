@@ -6,7 +6,9 @@ interface IOperationTableHead extends DetailedHTMLProps<HTMLAttributes<HTMLTable
 
 export const TableHead = ({ barberShop, ...otherProps }: IOperationTableHead) => {
     return (
-        <thead>
+        <thead
+            {...otherProps}
+        >
             <tr>
                 <th className="w-16 max-[500px]:w-8">Dia</th>
                 <th className="w-16 max-[500px]:w-8">{barberShop ? 'Aberto?:' : 'Trabalha?:'}</th>

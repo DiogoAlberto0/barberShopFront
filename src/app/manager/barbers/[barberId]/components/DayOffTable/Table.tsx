@@ -9,7 +9,7 @@ import { IconButton } from "@/components/Buttons/IconButton";
 
 
 interface IDayOffTableProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
-
+    variant?: string
 }
 
 const holidays = [

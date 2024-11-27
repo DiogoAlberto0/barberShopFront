@@ -1,13 +1,10 @@
 import { BackButton } from "@/components/BackButton";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { DoubleButton } from "@/components/Buttons/DoubleButton";
-import { CpfInput } from "@/components/inputs/CpfInput";
 import { FileInput } from "@/components/inputs/FileInput";
 import { LabelInput } from "@/components/inputs/LabelInput";
 import { NameInput } from "@/components/inputs/NameInput";
-import { PasswordInput } from "@/components/inputs/PasswordInput";
 import { PhoneInput } from "@/components/inputs/PhoneInput";
-import { SelectInput } from "@/components/inputs/SelectInput";
 import { TextArea } from "@/components/inputs/TextArea";
 
 

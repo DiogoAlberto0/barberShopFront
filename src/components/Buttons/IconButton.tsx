@@ -17,7 +17,8 @@ export const IconButton = ({
         <button
             className={`
                 bg-${variant} text-primary-content ${hover && 'hover:opacity-20'}
-                p-2 rounded-full
+                p-3 rounded-full
+                ${responsive && 'max-[500px]:p-2'}
                 ${className}
                 
             `}

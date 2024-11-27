@@ -1,7 +1,7 @@
 import { DetailedHTMLProps, InputHTMLAttributes } from "react"
 
 interface IToggleProps extends DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement> {
-
+    variant?: string
 }
 
 export const Toggle = ({ children, className, ...otherProps }: IToggleProps) => {

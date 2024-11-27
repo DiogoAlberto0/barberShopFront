@@ -5,7 +5,9 @@ import { DividerNoText } from "@/components/DividerNoText";
 import { ExpirationDateCard } from "./DateCard/DateCard";
 import { RenovationCard } from "./RenovationCard";
 
-interface IContractExpirationAccordionProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> { }
+interface IContractExpirationAccordionProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
+    id?: string
+}
 
 
 

@@ -8,7 +8,7 @@ import { AddIcon } from '../icons/AddIcon';
 import { TimeInput } from '../inputs/TimeInput';
 
 interface IHolidayFormProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
-
+    variant?: string
 }
 export const HolidayForm = ({ className, ...otherProps }: IHolidayFormProps) => {
 
